@@ -11,6 +11,12 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      borderWidth:{
+        80: '36px'
+      },
+      animation:{
+        'bounce-once':'bounce 1s ease-in-out'
+      }
     },
   },
   plugins: [],
