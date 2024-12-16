@@ -13,6 +13,9 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Case Studies - Arcolab",
+  icons:{
+    icon:"logo.jpg"
+  }
 };
 
 export default function RootLayout({ children }) {
