@@ -43,8 +43,8 @@ export default function Formulation() {
         <SideNav sections={sections} />
         <article className="ml-[13rem] ">
           <section id="question">
-            <div className="text-3xl font-semibold mb-4 w-[60em] h-[35vh] gap-[3em] shadow-xl flex flex-row items-center justify-start pl-10 bg-gradient-to-r from-green-700 via-green-300 to-slate-700">
-              <div className="text-[14em] mb-3 opacity-80  ">1</div>
+            <div className="text-3xl font-semibold mb-4 w-[50em] h-[35vh] gap-[3em] shadow-xl flex flex-row items-center justify-start pl-10 bg-gradient-to-r from-green-700 via-green-300 to-slate-700">
+              <div className="text-[10em] mb-3 opacity-80  ">1</div>
 
               <div className="w-[10em] text-5xl font-serif ">  Question/Challenges </div>
             </div>
