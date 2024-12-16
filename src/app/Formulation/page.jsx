@@ -74,9 +74,9 @@ export default function Formulation() {
           <br />
           <br />
           <section id="approach">
-            <div className="text-3xl font-semibold mb-7 w-[60em] h-[35vh] shadow-xl flex items-center pl-10 relative">
+            <div className="text-3xl font-semibold mb-7 w-[50em] h-[35vh] shadow-xl flex items-center pl-10 relative">
               <Image src={bgImage} alt="demoImg" className="w-full h-full object-cover" />
-              <span className="absolute text-[14em] right-[0.5em] mb-4 opacity-80">2</span>
+              <span className="absolute text-[10em] right-[0.5em] mb-4 opacity-80">2</span>
               <span className="absolute text-7xl left-[2em]">Approach to the Solution</span>
 
             </div>
@@ -156,8 +156,8 @@ export default function Formulation() {
             </div>
           </section>
           <section id="outcome">
-          <div className="text-3xl font-semibold mb-10 w-[60em] h-[35vh] gap-[3em] shadow-xl flex flex-row items-center justify-start pl-10 bg-gradient-to-r from-green-700 via-green-300 to-slate-700">
-              <div className="text-[14em] mb-3 opacity-80  ">3</div>
+          <div className="text-3xl font-semibold mb-10 w-[50em] h-[35vh] gap-[3em] shadow-xl flex flex-row items-center justify-start pl-10 bg-gradient-to-r from-green-700 via-green-300 to-slate-700">
+              <div className="text-[10em] mb-3 opacity-80  ">3</div>
 
               <div className="w-[10em] text-5xl font-serif "> Outcome </div>
             </div>
@@ -181,9 +181,9 @@ export default function Formulation() {
             </div>
           </section>
           <section id="help">
-          <div className="text-3xl font-semibold mb-7 w-[60em] h-[35vh] shadow-xl flex items-center pl-10 relative">
+          <div className="text-3xl font-semibold mb-7 w-[50em] h-[35vh] shadow-xl flex items-center pl-10 relative">
               <Image src={bgImage} alt="demoImg" className="w-full h-full object-cover" />
-              <span className="absolute text-[14em] right-[0.5em] mb-4 opacity-80">4</span>
+              <span className="absolute text-[10em] right-[0.5em] mb-4 opacity-80">4</span>
               <span className="absolute text-7xl left-[2em]">How can we help</span>
 
             </div>
