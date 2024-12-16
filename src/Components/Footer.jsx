@@ -15,7 +15,7 @@ function Footer() {
     },
   ];
   return (
-    <footer className="h-[100vh] border-t-2 border-black pt-10 flex flex-col gap-20 ">
+    <footer className="h-[100vh] border-t-2 border-black pt-10 flex flex-col gap-[15em] ">
         <span className="text-3xl font-thin ml-10">Team Members</span>
         <div className="grid grid-cols-4 ml-10">
         {details.map((member, index) => {
