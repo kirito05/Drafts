@@ -156,11 +156,12 @@ export default function Formulation() {
             </div>
           </section>
           <section id="outcome">
-            <div className="text-3xl font-semibold mb-7 w-4/5 h-[15vh] shadow-xl flex items-center pl-10 mt-10 ">
-              {" "}
-              Outcome and key take away from the solution{" "}
+          <div className="text-3xl font-semibold mb-10 w-[60em] h-[35vh] gap-[3em] shadow-xl flex flex-row items-center justify-start pl-10 bg-gradient-to-r from-green-700 via-green-300 to-slate-700">
+              <div className="text-[14em] mb-3 opacity-80  ">3</div>
+
+              <div className="w-[10em] text-5xl font-serif "> Outcome </div>
             </div>
-            <div className="w-4/5 text-2xl font-normal">
+            <div className="w-4/5 text-2xl font-normal mb-10">
              An indusstry leading company in the pharmaceuticals has shifted its approach from official actions
               to voluntary actions, as indicated by the three classifications.
               This strategic transition is designed to streamline operations and
@@ -180,10 +181,13 @@ export default function Formulation() {
             </div>
           </section>
           <section id="help">
-            <div className="text-3xl font-semibold mb-7 w-4/5 h-[15vh] shadow-xl flex items-center pl-10 mt-10 ">
-              {" "}
-              What Can Arcolab do for you ?{" "}
+          <div className="text-3xl font-semibold mb-7 w-[60em] h-[35vh] shadow-xl flex items-center pl-10 relative">
+              <Image src={bgImage} alt="demoImg" className="w-full h-full object-cover" />
+              <span className="absolute text-[14em] right-[0.5em] mb-4 opacity-80">4</span>
+              <span className="absolute text-7xl left-[2em]">How can we help</span>
+
             </div>
+
 
             <div className="text-2xl font-normal">
               Acrolab specializes in operational excellence and can help
