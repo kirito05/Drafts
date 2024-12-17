@@ -26,7 +26,7 @@ export default function Home() {
         <div className="border-2 border-black flex flex-col gap-10 items-center w-[25em] h-[35em] ">
           <div className="shadow-md w-full relative">
             <Image src={bgImage} alt="img1" className="w-full h-full object-cover"/>
-            <Link href="/ECG" className="absolute bottom-5 text-3xl">ECG</Link>
+            <Link href="/ECG" className="absolute bottom-5 text-3xl">ESG</Link>
             
           </div>
           <div>
