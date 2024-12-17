@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../../../public/arcolab-logo.jpg";
+import logo from "../../../public/logo.jpg";
 import demoImg from "../../../public/download.png";
 import bgImage from "../../../public/bglImage.jpg";
 import Footer from "@/Components/Footer";
