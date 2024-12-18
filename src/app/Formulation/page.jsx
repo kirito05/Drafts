@@ -24,7 +24,7 @@ export default function Formulation() {
   return (
     <div>
       <header className="flex flex-col ">
-        <nav className="flex flex-row  items-center gap-[40em] border-b-2 border-gray-300 md:gap-[30em] sm:gap-[20em]">
+        <nav className="flex flex-row  items-center gap-[40em] border-b-2 border-gray-300">
           <div>
             <Image
               src={logo}

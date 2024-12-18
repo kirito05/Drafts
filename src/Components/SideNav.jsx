@@ -51,10 +51,10 @@ function SideNav({sections}) {
   return (
     <aside className="w-full shadow-lg h-[6em]  p-5 ml-2 sticky top-0 self-start bg-white z-10 mb-16">
           <nav>
-            <ol className="list-decimal flex flex-row items-center justify-between text-2xl font-light pl-2">
+            <ol className="list-decimal flex flex-row items-center justify-between font-light pl-2 lg:text-2xl md:text-xl sm:text-xl">
                 {sections.map((section)=>(
                     <li key={section.id}
-                    className={`cursor-pointer hover:scale-105 hover:shadow-lg w-[12em] h-[2em] text-start font-normal `}
+                    className={`cursor-pointer hover:scale-105 hover:shadow-lg text-start font-normal lg:w-[12em] lg:h-[2em] md:w-[10em] md:h-[2em] sm:w-[10em] sm:h-[2em] `}
                     onClick={()=>handleScroll(section.id)}
 
                     >
