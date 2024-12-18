@@ -10,13 +10,17 @@ function Footer() {
       role: "Head Of Operational Excellence @Acrolab",
     },
     {
+      name:"karthik",
+      role:"Associate Head of the Department"
+    },
+    {
       name: "Vibhor",
       role: "Deputy Head of Operational Excellence @Arcolab",
     },
   ];
   return (
-    <footer className="h-[100vh] border-t-2 border-black pt-10 flex flex-col gap-[20em] ">
-        <span className="text-3xl font-thin ml-10">Team Members</span>
+    <footer className=" border-t-2 border-black flex flex-col gap-5">
+        <span className="text-3xl font-semibold p-5">Team Members</span>
         <div className="grid grid-cols-4 ml-10">
         {details.map((member, index) => {
         return (

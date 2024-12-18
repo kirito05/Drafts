@@ -54,7 +54,7 @@ function SideNav({sections}) {
             <ol className="list-decimal flex flex-row items-center justify-between text-2xl font-light pl-2">
                 {sections.map((section)=>(
                     <li key={section.id}
-                    className={`cursor-pointer hover:scale-105 hover:shadow-lg w-[12em] h-[2em] text-start font-normal`}
+                    className={`cursor-pointer hover:scale-105 hover:shadow-lg w-[12em] h-[2em] text-start font-normal `}
                     onClick={()=>handleScroll(section.id)}
 
                     >
