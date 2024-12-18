@@ -39,7 +39,7 @@ export default function Formulation() {
             alt="background-img1"
             className="w-full h-full object-cover"
           />
-          <h1 className="text-7xl font-semibold absolute bottom-20 left-10">
+          <h1 className="text-7xl font-semibold absolute bottom-20 left-10 bg-slate-100 p-3 bg-opacity-90 text-[#0c8e62]">
             5S Implementation at Formulation Plants
           </h1>
         </section>
@@ -97,10 +97,10 @@ export default function Formulation() {
               We Approached the problem with a{" "}
               <span className="font-semibold"> Six-Step Process:</span>
               <Image src={all} alt="img" className="ml-[10em] lg:w-[20em] lg:h-[20em] md:size-[15em] sm:size[5em]" />
-              <ul className="mt-10 flex flex-col gap-10">
+              <ul className="mt-10 flex flex-col gap-2">
                 <li className="font-semibold">
                   Step 1: Data Collection and Workshop
-                  <div className="mt-5 font-normal w-4/5 items-center grid grid-cols-4">
+                  <div className="mt-3 font-normal w-4/5 items-center grid grid-cols-4">
                     <div>
                       <Image src={img1} alt="img" className="w-[20em] h-[20em] object-contain lg:w-[20em] lg:h-[20em] md:size-[10em] " />
                     </div>
@@ -117,7 +117,7 @@ export default function Formulation() {
                 </li>
                 <li className="font-semibold ">
                   Step 2: Team formation and phase wise area distribution
-                  <div className="mt-5 font-normal w-4/5 items-center grid grid-cols-4">
+                  <div className="mt-3 font-normal w-4/5 items-center grid grid-cols-4">
                     <div className="col-span-3 text-2xl">
                       Engaging with zone members in brainstorming sessions to
                       identify and prioritise opportunities for quick wins.This
@@ -131,7 +131,7 @@ export default function Formulation() {
                 </li>
                 <li className="font-semibold ">
                   Step 3: Recommendation and High level roadmap
-                  <div className="mt-5 font-normal w-4/5 items-center grid grid-cols-4">
+                  <div className="mt-3 font-normal w-4/5 items-center grid grid-cols-4">
                     <div>
                       <Image src={img3} alt="img" className="w-[20em] h-[20em] object-contain " />
                     </div>
@@ -146,7 +146,7 @@ export default function Formulation() {
                 </li>
                 <li className="font-semibold ">
                   Step 4: 5S Implementation according to the tracker
-                  <div className="mt-5 font-normal w-4/5 items-center grid grid-cols-4">
+                  <div className="mt-3 font-normal w-4/5 items-center grid grid-cols-4">
                     <div className="col-span-3 text-2xl">
                       More than 10 issues are reviewed and addressed daily,
                       through a structured process guided by a governance
@@ -160,7 +160,7 @@ export default function Formulation() {
                 </li>
                 <li className="font-semibold ">
                   Step 5: Allocation of 5S Champion and site champion
-                  <div className="mt-5 font-normal w-4/5 items-center grid grid-cols-4">
+                  <div className="mt-3 font-normal w-4/5 items-center grid grid-cols-4">
                     <div>
                       <Image src={img5} alt="img" className="w-[20em] h-[20em] object-contain" />
                     </div>
@@ -174,7 +174,7 @@ export default function Formulation() {
                 </li>
                 <li className="font-semibold ">
                   Step 6: Governance round and 5S radar audit with 5S champion
-                  <div className="mt-5 font-normal w-4/5 items-center grid grid-cols-4">
+                  <div className="mt-3 font-normal w-4/5 items-center grid grid-cols-4">
                     <div className="col-span-3 text-2xl">
                       A meeting is scheduled with the 5S champions from all zone
                       to offer guidance, support and monitor progress. The
